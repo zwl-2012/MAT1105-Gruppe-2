@@ -1,0 +1,43 @@
+MATLAB command lines and format for matrices in mapping_2.py
+--------------------------------------------------------
+--------------------------------------------------------
+
+
+
+Initiate the 3x5 system equation
+
+	>>> A = [135 230 1 0 0; 410 230 1 457 0; 93 423 1 0 457]
+
+
+
+
+Row-reduced form of A to find the coefficients a0, a1, a2, b0, b1, b2
+
+	>>> rref(A)
+
+
+
+
+Transformation matrix T and its coefficients
+	T = [1.6618 0.3617 -307.5217; 0 2.3684 -544.6111; 0 0 1]
+	
+	a0 = 1.6618
+	a1 = 0.3617
+	a2 = -307.5217
+	b0 = 0
+	b1 = 2.3684
+	b2 = -544.6111
+
+
+
+Inverse of T and its inverse coefficients
+	inv(T) = [0.6018 -0.0919 135.0037; 0 0.4222 229.9490; 0 0 1]
+	
+	a0' = 0.6018
+	a1' = -0.0919
+	a2' = 135.0037
+	b0' = 0
+	b1' = 0.4222
+	b2' = 229.9490
+
+

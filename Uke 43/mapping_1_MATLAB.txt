@@ -10,6 +10,32 @@ Initiate the 3x5 system equation
 
 
 
+
 Row-reduced form of A to find the coefficients a0, a1, a2, b0, b1, b2
 
 	>>> rref(A)
+
+
+
+
+Transformation matrix T and its coefficients
+	T = [2 0 0; 0 2 0; 0 0 1]
+	
+	a0 = 2
+	a1 = 0
+	a2 = 0
+	b0 = 0
+	b1 = 2
+	b2 = 0
+
+
+
+Inverse of T and its inverse coefficients
+	inv(T) = [0.6018 -0.0919 135.0037; 0 0.4222 229.9490; 0 0 1]
+	
+	a0' = 1/2
+	a1' = 0
+	a2' = 0
+	b0' = 0
+	b1' = 1/2
+	b2' = 0
