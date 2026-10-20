@@ -1,0 +1,15 @@
+MATLAB command lines for matrices in mapping_1.py
+--------------------------------------------------------
+--------------------------------------------------------
+
+
+
+Initiate the 3x5 system equation
+
+	>>> A = [12 12 1 24 24; 12 340 1 24 680; 340 340 1 680 680]
+
+
+
+Row-reduced form of A to find the coefficients a0, a1, a2, b0, b1, b2
+
+	>>> rref(A)
